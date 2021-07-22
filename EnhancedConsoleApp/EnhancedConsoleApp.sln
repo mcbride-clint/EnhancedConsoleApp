@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{719809C2-A551-4C4A-9EFD-B10FB5E35BC0}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\Source\Directory.Build.props = EnhancedConsoleApp\Source\Directory.Build.props
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F20E2797-D1E3-4321-91BB-FAE54954D2A0}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\.editorconfig = EnhancedConsoleApp\.editorconfig
+		EnhancedConsoleApp\.gitattributes = EnhancedConsoleApp\.gitattributes
+		EnhancedConsoleApp\.gitignore = EnhancedConsoleApp\.gitignore
+		EnhancedConsoleApp\appveyor.yml = EnhancedConsoleApp\appveyor.yml
+		EnhancedConsoleApp\azure-pipelines.yml = EnhancedConsoleApp\azure-pipelines.yml
+		EnhancedConsoleApp\build.cake = EnhancedConsoleApp\build.cake
+		EnhancedConsoleApp\Directory.Build.props = EnhancedConsoleApp\Directory.Build.props
+		EnhancedConsoleApp\Directory.Build.targets = EnhancedConsoleApp\Directory.Build.targets
+		EnhancedConsoleApp\dotnet-tools.json = EnhancedConsoleApp\dotnet-tools.json
+		EnhancedConsoleApp\global.json = EnhancedConsoleApp\global.json
+		EnhancedConsoleApp\Key.snk = EnhancedConsoleApp\Key.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{7EDFA103-DB69-4C88-9DE4-97ADBF8253A1}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\LICENSE.md = EnhancedConsoleApp\LICENSE.md
+		EnhancedConsoleApp\README.md = EnhancedConsoleApp\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{26F71F5B-2940-4FB0-9681-A76060CBCEF9}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\Images\Banner.png = EnhancedConsoleApp\Images\Banner.png
+		EnhancedConsoleApp\Images\Hero.png = EnhancedConsoleApp\Images\Hero.png
+		EnhancedConsoleApp\Images\Icon.png = EnhancedConsoleApp\Images\Icon.png
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISSUE_TEMPLATE", "ISSUE_TEMPLATE", "{566DF0E2-1288-4083-9B55-4C8B69BB1432}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\.github\ISSUE_TEMPLATE\BUG_REPORT.yml = EnhancedConsoleApp\.github\ISSUE_TEMPLATE\BUG_REPORT.yml
+		EnhancedConsoleApp\.github\ISSUE_TEMPLATE\FEATURE_REQUEST.yml = EnhancedConsoleApp\.github\ISSUE_TEMPLATE\FEATURE_REQUEST.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{0555C737-CE4B-4C78-87AB-6296E1E32D01}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\.github\CODE_OF_CONDUCT.md = EnhancedConsoleApp\.github\CODE_OF_CONDUCT.md
+		EnhancedConsoleApp\.github\CONTRIBUTING.md = EnhancedConsoleApp\.github\CONTRIBUTING.md
+		EnhancedConsoleApp\.github\PULL_REQUEST_TEMPLATE.md = EnhancedConsoleApp\.github\PULL_REQUEST_TEMPLATE.md
+		EnhancedConsoleApp\.github\SECURITY.md = EnhancedConsoleApp\.github\SECURITY.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{EFE1E5ED-D337-4874-82EC-D9FA0BC7D3AB}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\.github\dependabot.yml = EnhancedConsoleApp\.github\dependabot.yml
+		EnhancedConsoleApp\.github\release-drafter.yml = EnhancedConsoleApp\.github\release-drafter.yml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "workflows", "workflows", "{841C67EF-BBB2-4730-8E29-22FF3FD54306}"
+	ProjectSection(SolutionItems) = preProject
+		EnhancedConsoleApp\.github\workflows\build.yml = EnhancedConsoleApp\.github\workflows\build.yml
+		EnhancedConsoleApp\.github\workflows\codeql-analysis.yml = EnhancedConsoleApp\.github\workflows\codeql-analysis.yml
+		EnhancedConsoleApp\.github\workflows\release-drafter.yml = EnhancedConsoleApp\.github\workflows\release-drafter.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnhancedConsoleApp", "EnhancedConsoleApp\Source\EnhancedConsoleApp\EnhancedConsoleApp.csproj", "{4235726B-1F97-4B83-B0DB-9FAFF866643F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4235726B-1F97-4B83-B0DB-9FAFF866643F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4235726B-1F97-4B83-B0DB-9FAFF866643F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4235726B-1F97-4B83-B0DB-9FAFF866643F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4235726B-1F97-4B83-B0DB-9FAFF866643F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{566DF0E2-1288-4083-9B55-4C8B69BB1432} = {0555C737-CE4B-4C78-87AB-6296E1E32D01}
+		{0555C737-CE4B-4C78-87AB-6296E1E32D01} = {7EDFA103-DB69-4C88-9DE4-97ADBF8253A1}
+		{EFE1E5ED-D337-4874-82EC-D9FA0BC7D3AB} = {F20E2797-D1E3-4321-91BB-FAE54954D2A0}
+		{841C67EF-BBB2-4730-8E29-22FF3FD54306} = {EFE1E5ED-D337-4874-82EC-D9FA0BC7D3AB}
+		{4235726B-1F97-4B83-B0DB-9FAFF866643F} = {719809C2-A551-4C4A-9EFD-B10FB5E35BC0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73F36209-F8D6-4066-8951-D97729F773CF}
+	EndGlobalSection
+EndGlobal
