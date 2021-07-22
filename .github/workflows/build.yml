@@ -38,13 +38,13 @@ jobs:
     - name: 'Dotnet Tool Restore'
       run: dotnet tool restore
       shell: pwsh
-    - name: 'Dotnet Cake Build'
-      run: dotnet cake --target=Build
+    - name: 'Dotnet Build'
+      run: dotnet build
       shell: pwsh
-    - name: 'Dotnet Cake Test'
-      run: dotnet cake --target=Test
+    - name: 'Dotnet Test'
+      run: dotnet test
       shell: pwsh
-    - name: 'Dotnet Cake Pack'
+    - name: 'Dotnet Pack'
       run: dotnet pack -o ./Artefacts
       shell: pwsh
     - name: 'Publish Artefacts'
