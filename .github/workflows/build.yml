@@ -78,7 +78,7 @@ jobs:
   push-nuget:
     name: 'Push NuGet Packages'
     needs: build
-    if: github.ref == 'refs/heads/main'
+    if: github.event_name == 'release'
     environment:
       name: 'NuGet'
       url: https://www.nuget.org/packages/EnhancedConsoleApp
