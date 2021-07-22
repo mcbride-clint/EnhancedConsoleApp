@@ -9,16 +9,16 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Package">
-    <Authors>Clint McBride</Authors>
-    <Company>Clint McBride</Company>
-    <Copyright>Copyright © Clint McBride. All rights Reserved</Copyright>
+    <Authors>Project Author</Authors>
+    <Company>Project Author</Company>
+    <Copyright>Copyright © Project Author. All rights Reserved</Copyright>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/Username/Project</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/mcbride-clint/EnhancedConsoleApp</PackageProjectUrl>
     <PackageIcon>Icon.png</PackageIcon>
-    <RepositoryUrl>https://github.com/Username/Project.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/mcbride-clint/EnhancedConsoleApp.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageReleaseNotes>https://github.com/Username/Project/releases</PackageReleaseNotes>
+    <PackageReleaseNotes>https://github.com/mcbride-clint/EnhancedConsoleApp/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup Label="Package References">

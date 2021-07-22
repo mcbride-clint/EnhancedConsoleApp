@@ -117,7 +117,7 @@ dotnet_style_coalesce_expression = true:warning
 dotnet_style_null_propagation = true:warning
 dotnet_style_prefer_is_null_check_over_reference_equality_method = true:warning
 # File header preferences
-# file_header_template = <copyright file="{fileName}" company="Clint McBride">\n© Clint McBride\n</copyright>
+# file_header_template = <copyright file="{fileName}" company="Project Author">\n© Project Author\n</copyright>
 # If you use StyleCop, you'll need to disable SA1636: File header copyright text should match.
 # dotnet_diagnostic.SA1636.severity = none
 # Undocumented
@@ -416,14 +416,6 @@ dotnet_naming_rule.parameters_rule.severity             = warning
 # Justification: Comments turned off
 # https://github.com/DotNetAnalyzers/StyleCopAnalyzers/blob/master/documentation/SA1633.md
 dotnet_diagnostic.SA1633.severity = none
-csharp_style_expression_bodied_methods=when_on_single_line:warning
-csharp_style_expression_bodied_constructors=when_on_single_line:warning
-csharp_style_expression_bodied_operators=when_on_single_line:warning
-csharp_style_expression_bodied_properties=when_on_single_line:warning
-csharp_style_expression_bodied_indexers=when_on_single_line:warning
-csharp_style_expression_bodied_accessors=when_on_single_line:warning
-csharp_style_expression_bodied_lambdas=when_on_single_line:none
-csharp_style_expression_bodied_local_functions=when_on_single_line:warning
 
 ##########################################
 # License
@@ -459,6 +451,3 @@ csharp_style_expression_bodied_local_functions=when_on_single_line:warning
 # FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 # OTHER DEALINGS IN THE SOFTWARE.
 ##########################################
-
-# IDE0053: Use expression body for lambda expressions
-dotnet_diagnostic.IDE0053.severity = none

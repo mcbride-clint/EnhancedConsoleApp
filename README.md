@@ -2,9 +2,9 @@
 
 # Enhanced Console App
 
-[![GitHub Actions Status](https://github.com/Username/Project/workflows/Build/badge.svg?branch=main)](https://github.com/Username/Project/actions) [![EnhancedConsoleApp NuGet Package Downloads](https://img.shields.io/nuget/dt/EnhancedConsoleApp)](https://www.nuget.org/packages/EnhancedConsoleApp)
+[![GitHub Actions Status](https://github.com/mcbride-clint/EnhancedConsoleApp/workflows/Build/badge.svg?branch=main)](https://github.com/mcbride-clint/EnhancedConsoleApp/actions) [![EnhancedConsoleApp NuGet Package Downloads](https://img.shields.io/nuget/dt/EnhancedConsoleApp)](https://www.nuget.org/packages/EnhancedConsoleApp)
 
-[![GitHub Actions Build History](https://buildstats.info/github/chart/Username/Project?branch=main&includeBuildsFromPullRequest=false)](https://github.com/Username/Project/actions)
+[![GitHub Actions Build History](https://buildstats.info/github/chart/mcbride-clint/EnhancedConsoleApp?branch=main&includeBuildsFromPullRequest=false)](https://github.com/mcbride-clint/EnhancedConsoleApp/actions)
 
 
-Standard .Net Console App With Built in Hosting Framework (Dependency Injection, Configuration, Logging)
+Enhanced Console App with Hosting Framework (Dependency Injection, Configuration, Logging)
