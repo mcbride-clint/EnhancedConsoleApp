@@ -45,7 +45,7 @@ jobs:
       run: dotnet cake --target=Test
       shell: pwsh
     - name: 'Dotnet Cake Pack'
-      run: dotnet pack
+      run: dotnet pack -o ./Artefacts
       shell: pwsh
     - name: 'Publish Artefacts'
       uses: actions/upload-artifact@v2.2.4
