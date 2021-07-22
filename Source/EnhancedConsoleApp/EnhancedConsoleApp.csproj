@@ -1,15 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup Label="Build">
-    <TargetFramework>net5.0</TargetFramework>
-  </PropertyGroup>
-
   <PropertyGroup Label="Package">
     <Product>Enhanced Console App</Product>
     <PackageType>Template</PackageType>
     <PackageVersion>1.0</PackageVersion>
+    <PackageId>mcbride-clint.EnhancedConsoleApp</PackageId>
     <Description>Enhanced Console App with Hosting Framework (Dependency Injection, Configuration, Logging)</Description>
     <PackageTags>C#;Template;Tag3</PackageTags>
+
+    <TargetFramework>net5.0</TargetFramework>
+
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>
     <ContentTargetFolders>content</ContentTargetFolders>
