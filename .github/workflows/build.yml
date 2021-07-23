@@ -38,6 +38,9 @@ jobs:
     - name: 'Dotnet Tool Restore'
       run: dotnet tool restore
       shell: pwsh
+    - name: 'Dotnet Clean'
+      run: dotnet clean
+      shell: pwsh
     - name: 'Dotnet Build'
       run: dotnet build
       shell: pwsh
