@@ -9,7 +9,7 @@
 
   <PropertyGroup Label="Signing">
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>TemplatePacker.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../../TemplatePacker.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Label="Source Link">
