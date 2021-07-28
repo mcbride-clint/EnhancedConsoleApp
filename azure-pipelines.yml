@@ -32,5 +32,5 @@ steps:
   displayName: 'NuGet push'
   inputs:
     command: push
-    publishVstsFeed: 'HomeSystem/TestFee'
+    publishVstsFeed: 'TestFee'
     allowPackageConflicts: true
