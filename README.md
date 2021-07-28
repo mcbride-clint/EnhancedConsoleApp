@@ -1,8 +1,7 @@
-![Banner](Images/Banner.png)
-
 # Enhanced Console App
 
-[![GitHub Actions Status](https://github.com/mcbride-clint/EnhancedConsoleApp/workflows/Build/badge.svg?branch=main)](https://github.com/mcbride-clint/EnhancedConsoleApp/actions) [![EnhancedConsoleApp NuGet Package Downloads](https://img.shields.io/nuget/dt/EnhancedConsoleApp)](https://www.nuget.org/packages/EnhancedConsoleApp)
+[![GitHub Actions Status](https://github.com/mcbride-clint/EnhancedConsoleApp/workflows/Build/badge.svg?branch=main)](https://github.com/mcbride-clint.EnhancedConsoleApp/actions) 
+[![EnhancedConsoleApp NuGet Package Downloads](https://img.shields.io/nuget/dt/mcbride-clint.EnhancedConsoleApp)](https://www.nuget.org/packages/mcbride-clint.EnhancedConsoleApp)
 
 [![GitHub Actions Build History](https://buildstats.info/github/chart/mcbride-clint/EnhancedConsoleApp?branch=main&includeBuildsFromPullRequest=false)](https://github.com/mcbride-clint/EnhancedConsoleApp/actions)
 
