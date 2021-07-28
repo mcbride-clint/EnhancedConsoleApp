@@ -1,10 +1,13 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Me",
-  "classifications": [ "Common", "Console", "C#9" ],
+  "author": "mcbride-clint",
+  "classifications": [ "Common", "Console", "C#" ],
   "identity": "Enhanced Console App Project",
-  "name": "Enhanced Console App project",
+  "name": "Enhanced Console App Project",
+  "description": "A basic c# console app with Generic Hosting support with Configuration, Dependency Injection, and Logging.",
   "shortName": "enhancedconsole",
+  "defaultName": "EnhancedConsoleApp1",
+  "sourceName": "EnhancedConsoleApp",
   "tags": {
     "language": "C#",
     "type": "project"
