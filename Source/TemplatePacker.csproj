@@ -19,23 +19,21 @@
   <PropertyGroup>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <DelaySign>false</DelaySign>
-    <AssemblyOriginatorKeyFile>../../TemplatePacker.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../TemplatePacker.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="..\templates\**\*" Exclude="..\templates\**\bin\**;..\templates\**\obj\**" />
+    <Content Include="templates\**\*" Exclude="templates\**\bin\**;templates\**\obj\**" />
     <Compile Remove="**\*" />
-    <Content Remove="..\templates\.template.config\**" />
-    <Content Remove="..\templates\Properties\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Remove="..\templates\appsettings.Development.json" />
-    <Content Remove="..\templates\appsettings.json" />
-    <Content Remove="..\templates\EnhancedConsoleApp.csproj" />
-    <Content Remove="..\templates\Program.cs" />
-    <Content Remove="..\templates\Worker.cs" />
+    <Compile Remove="templates\EnhancedConsoleApp\bin\**" />
+    <Compile Remove="templates\EnhancedConsoleApp\obj\**" />
+    <Content Remove="templates\EnhancedConsoleApp\bin\**" />
+    <Content Remove="templates\EnhancedConsoleApp\obj\**" />
+    <EmbeddedResource Remove="templates\EnhancedConsoleApp\bin\**" />
+    <EmbeddedResource Remove="templates\EnhancedConsoleApp\obj\**" />
+    <None Remove="templates\EnhancedConsoleApp\bin\**" />
+    <None Remove="templates\EnhancedConsoleApp\obj\**" />
   </ItemGroup>
 
 </Project>
