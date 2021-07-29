@@ -2,5 +2,5 @@
   "$schema": "http://json.schemastore.org/vs-2017.3.host",
   "order": 0,
   "learnMoreLink": "https://github.com/Dotnet-Boxed/Templates/blob/main/Docs/NuGet.md",
-  "icon": "icon.png"
+  "icon": "Icon.png"
 }
