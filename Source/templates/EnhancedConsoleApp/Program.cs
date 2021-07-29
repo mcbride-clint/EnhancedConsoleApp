@@ -1,34 +1,35 @@
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+
 namespace EnhancedConsoleApp
 {
-    using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Hosting;
-
-    /// <summary>
-    /// dfg.
-    /// </summary>
     public class Program
     {
-        /// <summary>d
-        /// fdfg.
-        /// </summary>
-        /// <param name="args"></param>
         public static void Main(string[] args)
         {
             var host = CreateHostBuilder(args).Build();
 
-            host.Services.GetRequiredService<Worker>().Execute();
+            host.Services.GetRequiredService<Process>().Execute();
         }
 
-        /// <summary>
-        /// gssegfg.
-        /// </summary>
-        /// <param name="args"></param>
-        /// <returns></returns>
+        // Asynchronous version of Main
+        // Just change Process.Execute() to async Task as well
+        /*
+
+        public static async Task Main(string[] args)
+        {
+            var host = CreateHostBuilder(args).Build();
+
+            await host.Services.GetRequiredService<Process>().Execute();
+        }
+
+         */
+
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
-                    services.AddSingleton<Worker>();
+                    services.AddSingleton<Process>();
                 });
     }
 }
