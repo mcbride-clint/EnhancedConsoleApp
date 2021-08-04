@@ -84,7 +84,7 @@ jobs:
     if: github.event_name == 'release'
     environment:
       name: 'NuGet'
-      url: https://www.nuget.org/packages/EnhancedConsoleApp
+      url: https://www.nuget.org/packages/mcbride-clint.EnhancedConsoleApp
     runs-on: windows-latest
     steps:
       - name: 'Download Artefact'

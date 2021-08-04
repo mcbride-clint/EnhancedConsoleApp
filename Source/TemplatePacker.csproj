@@ -21,6 +21,7 @@
     <DelaySign>false</DelaySign>
     <AssemblyOriginatorKeyFile>../TemplatePacker.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
